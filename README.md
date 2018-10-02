@@ -6,11 +6,11 @@ $yarn install
 
 ## Packed with
 
-[Redux](https://redux.js.org/)
-[Material UI](https://material-ui.com/)
-[styled-components](https://github.com/styled-components/styled-components)
-[eslint](https://eslint.org/)
-[typicode/husky](https://github.com/typicode/husky)
+- [x][redux](https://redux.js.org/)
+- [x][material ui](https://material-ui.com/)
+- [x][styled-components](https://github.com/styled-components/styled-components)
+- [x][eslint](https://eslint.org/)
+- [x][typicode/husky](https://github.com/typicode/husky)
 
 ## Absolute File Path
 
