@@ -5,7 +5,9 @@ import * as actions from "actions";
 
 class Home extends Component {
   state = {};
-  render() {}
+  render() {
+    return <p>Hello World!</p>;
+  }
 }
 
 Home.propTypes = {
