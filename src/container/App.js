@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ThemeProvider from "@material-ui/core/styles/MuiThemeProvider";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import ThemeConfig from "styles/ThemeConfig";
+import baseTheme from "styles/ThemeConfig";
 
 // components
 import Home from "components/Home";
@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div>
         <CssBaseline />
-        <ThemeProvider theme={ThemeConfig}>
+        <ThemeProvider theme={baseTheme}>
           <Home />
         </ThemeProvider>
       </div>

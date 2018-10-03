@@ -1,21 +1,23 @@
-export default {
+import { createMuiTheme } from "@material-ui/core/styles";
+
+const baseTheme = createMuiTheme({
   palette: {
     type: "light",
     primary: {
       main: "#fff",
-      dark: "#282828",
-      contrastText: "#c3bb89"
+      dark: "rgba(0,0,0,0)",
+      contrastText: "#fff"
     },
     secondary: {
-      main: "rgba(fff,fff,fff,0.0)",
+      main: "#edc951",
       dark: "#282828",
       contrastText: "#282828"
     },
     error: {
       main: "#fff",
-      contrastText: "tomato"
+      contrastText: "#fafafa"
     },
-    divider: "#D7D6D5",
+    divider: "#dadada",
     background: {
       paper: "transparent",
       header: "#333333",
@@ -25,4 +27,6 @@ export default {
       backgroundColor: "#ffeb3b"
     }
   }
-};
+});
+
+export default baseTheme;
